@@ -24,11 +24,15 @@ let displayArray = () =>{
 }
 
 let addTask = () =>{
-
     addToArray("Task");
-    displayArray();
-    console.log("Task has been logged into the array \n Number of elements = " + arrayOfStrings.length);
+    console.log("Task has been logged into the array \n Number of elements = " + arrayOfStrings.length +"\n");
 
 }
 
+let listAllTasks = () => {
+
+    displayArray();
+}
+
 addTask();
+listAllTasks();
